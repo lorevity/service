@@ -3,7 +3,7 @@ local Service = require("@types/shared/Service")
 local getService = game.GetService
 local cloneReference = cloneref
 
-local function getReferencePermission(): ReplicatedFirst
+local function getReferencePermission(): ReplicatedFirst?
 	local service = getService(game, "ReplicatedFirst")
 	return cloneReference(service)
 end
