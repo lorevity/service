@@ -15,7 +15,7 @@ print(Players.LocalPlayer.Name)
 ```
 
 # Advice
-✅ It's recommended to localize services, because this will save performance better than if it's done ONLY by a utility:
+✅ Recommended to localize services, because this will save performance better than if it's done ONLY by a utility:
 ```lua
 local service = require("@path/to/service")
 
@@ -24,7 +24,7 @@ local Workspace = service.Workspace
 
 print(`successfully fetched: {ReplicatedStorage}, {Workspace}`)
 ```
-⚠️ It's highly advised not to access the service every time, especially if you do it in some kind of loop, because the utility will process the cached services every time and this may cause some kind of deterioration in perfomance:
+⚠️ Highly advised not to access the service every time, especially if you do it in some kind of loop, because the utility will process the cached services every time and this may cause some kind of deterioration in perfomance:
 ```lua
 local service = require("@path/to/service")
 
