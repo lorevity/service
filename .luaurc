@@ -1,0 +1,7 @@
+{
+	"aliases": {
+        "src": "./src",
+        "types": "./src/types",
+        "utils": "./src/utils"
+	}
+}
