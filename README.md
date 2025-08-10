@@ -5,7 +5,7 @@ An service caching utility for ROBLOX which goal is to achieve the best perfoman
 This utility allows to easily access any service, while keeping the typization for most of the game service and caching any service for future perfomance. Undefined services are usually defined as `Instance` to prevent any possible type errors.
 
 # Usage
-It's preferred to use the [darklua](https://github.com/lorevity/darklua) tool while working with this utility, either way there is a [build version](https://github.com/lorevity/service/releases/download/v0.0.1/service.luau). <br />
+It's preferred to use the [darklua](https://github.com/lorevity/darklua) tool while working with this utility then importing it from the repository, either way using a [build version](https://github.com/lorevity/service/releases/download/v0.0.1/service.luau). <br />
 The simplest example would be printing `LocalPlayer` name:
 ```lua
 local service = require("@path/to/service")
