@@ -34,6 +34,6 @@ end
 
 local service = setmetatable({}, {
 	__index = fetchService,
-})
+}) :: any
 
 return service :: Service.Map
